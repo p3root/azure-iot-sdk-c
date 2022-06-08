@@ -10,7 +10,7 @@ schedules:
 jobs:
 - job: Cross_Compile
   pool:
-    vmImage: ubuntu-16.04
+    vmImage: ubuntu-latest
   steps:
   - script: |
       . build_all/mbed5/setup.sh
